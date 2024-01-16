@@ -59,7 +59,7 @@ const projectList = [
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  }
+  },
 ];
 
 const Portfolio = () => {
@@ -70,7 +70,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
