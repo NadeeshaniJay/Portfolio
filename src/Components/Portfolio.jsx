@@ -31,16 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Fabric.sl - MERN stack e-commerce site",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A full stack e-commerce site built with the MERN stack. Includes user authentication and admin dashboard.",
+    url: "https://github.com/NadeeshaniJay/Fabric.sl-MERN.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Student Management System",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Student Management System developed by using WPF. This system is used to manage student details, course details, and simple CRUD operations.",
+    url: "https://github.com/NadeeshaniJay/Student-Management-System_3981.git",
+  },
+  {
+    title: "Point of Sales System",
+    description:
+      "A POS system developed by using WPF. This system is used to manage sales, inventory, and simple CRUD operations.",
+    url: "https://github.com/NadeeshaniJay/Point-of-Sale-System_3981_3986.git",
   },
   {
     title: "My Resume Site",
@@ -53,7 +59,7 @@ const projectList = [
     description:
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  }
 ];
 
 const Portfolio = () => {
